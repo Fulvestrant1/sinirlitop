@@ -1,0 +1,9 @@
+{
+  "build": {
+    "android": {
+      "release": {
+        "buildType": "app-bundle"
+      }
+    }
+  }
+}
