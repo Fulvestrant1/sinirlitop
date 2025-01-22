@@ -2,7 +2,7 @@
   "build": {
     "android": {
       "release": {
-        "buildType": "app-bundle"
+        "concurrency": 1
       }
     }
   }
