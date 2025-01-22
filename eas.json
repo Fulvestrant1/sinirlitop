@@ -2,7 +2,14 @@
   "build": {
     "android": {
       "release": {
-        "concurrency": 1
+        "concurrency": 1,
+        "buildType": "apk", // APK tipi
+        "keystore": {
+          "keystorePath": "./android/app/my-release-key.jks",  // Keystore dosyasının yolu
+          "keystoreAlias": "my-key-alias", // Keystore alias
+          "keystorePassword": "keystore-password", // Keystore şifresi
+          "keyPassword": "key-password" // Key şifresi
+        }
       }
     }
   }
